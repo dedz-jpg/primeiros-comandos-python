@@ -1,50 +1,70 @@
-# Primeiros Comandos em Python 
+# 🐍 Primeiros Comandos em Python
 
 Este repositório registra meus primeiros passos no mundo da programação com Python.  
-Aqui compartilho os primeiros comandos que executei tanto no terminal quanto no IDLE.
+Aqui compartilho os comandos e exercícios que executei usando o terminal (CMD), o IDLE e editores de código como o VSCode.
 
 ---
 
-## O que foi feito:
+## O que já foi feito:
 
 ### 1. `primeiro_print_terminal.py`
 
-- Comando `print("Olá, mundo!")`
-- Soma simples: `10 + 195.678`
-
-Print disponível na pasta [`/prints`](./prints) com a execução no terminal do Windows (CMD).
-
----
-
-### 2. `saudacao_spfc.py`
-
-- Comando de saudação com meu time favorito:
+- Meu primeiro comando:
 ```python
+print("Olá, mundo!")
+
+Soma simples:
+
+print(10 + 195.678)
+
+📸 Print da execução:
+Arquivo disponível em /prints → comandos_aprendidos.png
+saudacao_spfc.py
+
+Saudações ao meu time do coração:
+
 print("São Paulo Futebol Clube!")
 
-Print disponível na pasta /prints, feito no IDLE (ambiente padrão do Python).
+Print da execução no IDLE:
+Arquivo disponível em /prints → saudacao_spfc.png
 
----
+Exercícios Práticos
+3. scripts/teste01.py
 
-## Objetivo
+    Solicita dados do usuário: nome, idade, altura, data de nascimento.
 
-Treinar os primeiros comandos básicos do Python (`print`) em diferentes ambientes  
-e começar a registrar cada passo da minha jornada como programador.
+    Confirma se as informações estão corretas.
 
----
+    Em seguida, pede dois números e mostra a soma deles.
 
-## Sobre mim
+# Exemplo de comando usado:
+nome = input("Qual é o seu nome?")
+...
+print("Informações confirmadas!")
 
-Sou André Ricardo, estudante em transição de carreira para a área de Tecnologia da Informação.  
-Atualmente focado no aprendizado de **Python**, **lógica de programação**, **hardware** e **inteligência artificial**.  
-Começo oficialmente o curso de **Ciência da Computação** em agosto.
+Print da execução completa:
+Arquivo disponível em /prints → todos os codigos funcionando.png
 
-Esse repositório é mais um passo dentro da construção do meu portfólio.
+4. scripts/desafio02.py
 
----
+Pede dois números e mostra a soma.
 
-## Tecnologias utilizadas
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+print("A soma é:", numero1 + numero2)
 
-- Python 3.13.5  
-- Terminal (CMD)  
-- IDLE (Ambiente nativo do Python)
+Print do teste isolado da soma:
+Arquivo disponível em /prints → soma de números.png
+
+Próximos passos
+
+Estudar mais sobre input, int, float, if, else.
+
+Praticar comandos com múltiplas entradas e condicionais aninhadas.
+
+Criar repositórios temáticos por conteúdo conforme os estudos avançam.
+
+Sobre mim
+
+Sou André Ricardo, iniciante em Python e em transição de carreira para a área de tecnologia.
+Compartilho aqui todos os aprendizados com organização e clareza — pra registrar meu progresso e, quem sabe, ajudar outros iniciantes também. 💻✨
